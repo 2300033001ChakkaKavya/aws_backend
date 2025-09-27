@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://ec2-54-163-37-209.compute-1.amazonaws.com:8081")
+                        .allowedOrigins("http://ec2-44-220-158-40.compute-1.amazonaws.com:8081")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
